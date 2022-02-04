@@ -1,0 +1,15 @@
+dependencies:
+- name: flyte-core
+  repository: file://../flyte-core
+  version: v0.1.10
+- name: contour
+  repository: https://charts.bitnami.com/bitnami
+  version: 5.0.0
+- name: spark-operator
+  repository: file://../spark-operator
+  version: 1.1.17
+- name: kubernetes-dashboard
+  repository: https://kubernetes.github.io/dashboard/
+  version: 4.0.2
+digest: sha256:5798fb84f03d9f77ee3c203a50d6628e6274b8deed564b040ec14c249f37598a
+generated: "2022-02-04T01:38:12.849105733Z"
